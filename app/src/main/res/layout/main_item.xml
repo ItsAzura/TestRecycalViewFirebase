@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Name"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:paddingBottom="10dp"
+            />
+
+        <TextView
+            android:id="@+id/tvDescrip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food DesCrip"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_below="@+id/tvName"
+            android:paddingBottom="6dp"
+            />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Food Price"
+            android:textStyle="normal"
+            android:textSize="18sp"
+            android:layout_below="@+id/tvDescrip"
+            />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1028149760653",
+    "firebase_url": "https://testfirebase-3855e-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "testfirebase-3855e",
+    "storage_bucket": "testfirebase-3855e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1028149760653:android:4fd7a331803902fe3208c4",
+        "android_client_info": {
+          "package_name": "com.example.testrecycalviewfirebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCq-SRjQ53RW65AV9u1r2FAwvWlAxgYdcw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
